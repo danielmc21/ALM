@@ -44,23 +44,23 @@
 *{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent;}
 body{background:var(--bg);color:var(--ink);font-family:'Space Grotesk',-apple-system,sans-serif;min-height:100vh;-webkit-font-smoothing:antialiased;}
 .page{max-width:600px;margin:0 auto;padding:0 0 3rem;}
-
+ 
 /* HEADER */
 .header{background:var(--white);padding:1.2rem 1.1rem 1rem;border-bottom:1px solid var(--border);position:sticky;top:0;z-index:100;box-shadow:0 2px 12px rgba(0,0,0,0.06);}
 .header-top{display:flex;align-items:center;justify-content:space-between;margin-bottom:0.15rem;}
 .header-badge{background:var(--grad);color:white;font-family:'Space Mono',monospace;font-size:0.52rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;padding:0.22rem 0.55rem;border-radius:20px;}
 .header h1{font-size:1.25rem;font-weight:700;letter-spacing:-0.03em;background:var(--grad);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;line-height:1.1;}
 .header-sub{font-size:0.68rem;color:var(--ink3);margin-top:0.2rem;}
-
+ 
 /* SECTION LABEL */
 .section-label{font-family:'Space Mono',monospace;font-size:0.56rem;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:var(--purple3);margin:1.1rem 1rem 0.45rem;}
-
+ 
 /* CARD */
 .card{background:var(--white);border-radius:var(--radius);box-shadow:var(--shadow);margin:0 0.7rem 0.9rem;border:1px solid var(--border);overflow:hidden;}
 .card-header{padding:0.8rem 1rem 0.6rem;border-bottom:1px solid var(--border);display:flex;align-items:center;justify-content:space-between;}
 .card-title{font-size:0.72rem;font-weight:600;color:var(--ink2);font-family:'Space Mono',monospace;text-transform:uppercase;letter-spacing:0.08em;}
 .card-body{padding:0.9rem 1rem;}
-
+ 
 /* NII STRIP */
 .nii-strip{background:var(--grad);margin:0.8rem 0.7rem 0;border-radius:var(--radius);padding:0.9rem 1.1rem;display:grid;grid-template-columns:1fr 1fr;gap:0;box-shadow:var(--shadow-lg);}
 .nii-divider{width:1px;background:rgba(255,255,255,0.2);margin:0 0.8rem;}
@@ -69,7 +69,7 @@ body{background:var(--bg);color:var(--ink);font-family:'Space Grotesk',-apple-sy
 .nii-sub{font-size:0.65rem;color:rgba(255,255,255,0.65);margin-top:0.2rem;}
 .nii-gain{color:#86efac;font-weight:600;}
 .nii-right{text-align:right;}
-
+ 
 /* LEVERS */
 .lever{margin-bottom:1.1rem;}
 .lever:last-of-type{margin-bottom:0;}
@@ -90,7 +90,7 @@ input[type=range]::-moz-range-thumb{width:26px;height:26px;border-radius:50%;bac
 .reset-btn:active{background:var(--border);}
 .optimal-btn{background:var(--grad);border:none;border-radius:20px;padding:0.35rem 1rem;font-family:'Space Mono',monospace;font-size:0.6rem;font-weight:700;color:white;cursor:pointer;letter-spacing:0.06em;text-transform:uppercase;flex:1;}
 .optimal-btn:active{opacity:0.85;}
-
+ 
 /* METRICS */
 .metric-row{display:grid;grid-template-columns:1fr auto;gap:0.5rem;padding:0.65rem 0;border-bottom:1px solid var(--border);align-items:start;}
 .metric-row:last-child{border-bottom:none;padding-bottom:0;}
@@ -112,7 +112,7 @@ input[type=range]::-moz-range-thumb{width:26px;height:26px;border-radius:50%;bac
 .sp-zero{color:var(--ink3);}
 .sp-active{color:var(--orange);}
 .nii-metric-row{background:var(--purple-bg);margin:0 -1rem -0.9rem;padding:0.65rem 1rem 0.9rem;border-radius:0 0 var(--radius) var(--radius);}
-
+ 
 /* BS GRID */
 .bs-grid{display:grid;grid-template-columns:1fr 1fr;gap:0.5rem;}
 .bs-item{background:var(--bg);border-radius:var(--radius-sm);padding:0.55rem 0.75rem;border:1px solid var(--border);}
@@ -121,7 +121,7 @@ input[type=range]::-moz-range-thumb{width:26px;height:26px;border-radius:50%;bac
 .bs-item-delta{font-family:'Space Mono',monospace;font-size:0.58rem;margin-top:0.1rem;}
 .d-pos{color:var(--green);}.d-neg{color:var(--red);}.d-zero{color:var(--ink3);}
 .changed{color:var(--purple2);}
-
+ 
 /* FRONTIER */
 .frontier-card{margin:0 0.7rem 0.9rem;border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow-lg);border:1px solid var(--border);}
 .frontier-top{padding:1rem 1.1rem;background:var(--white);transition:background 0.4s;}
@@ -132,20 +132,20 @@ input[type=range]::-moz-range-thumb{width:26px;height:26px;border-radius:50%;bac
 .track-bar{position:relative;height:8px;border-radius:4px;background:linear-gradient(90deg,#dc2626 0%,#f59e0b 25%,#10b981 45%,#10b981 55%,#f59e0b 75%,#dc2626 100%);margin-bottom:0.4rem;}
 .track-dot{position:absolute;width:18px;height:18px;background:var(--white);border-radius:50%;top:50%;transform:translate(-50%,-50%);border:3px solid var(--purple2);box-shadow:0 2px 8px rgba(0,0,0,0.2);transition:left 0.4s cubic-bezier(0.34,1.56,0.64,1);}
 .track-zone-labels{display:flex;justify-content:space-between;font-family:'Space Mono',monospace;font-size:0.5rem;color:var(--ink3);}
-
+ 
 /* KKT */
 .kkt-card{margin:0 0.7rem 0.9rem;border-radius:var(--radius);background:var(--purple-bg);border:1px solid #ddd6fe;padding:0.9rem 1rem;box-shadow:var(--shadow);}
 .kkt-title{font-family:'Space Mono',monospace;font-size:0.56rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--purple3);margin-bottom:0.5rem;}
 .kkt-text{font-size:0.75rem;color:var(--ink2);line-height:1.6;}
 .kkt-highlight{color:var(--orange);font-weight:600;}
 .kkt-good{color:var(--green);font-weight:600;}
-
+ 
 /* FOOTER */
 .footer{margin:0 0.7rem;padding:0.8rem 0;border-top:1px solid var(--border);display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:0.3rem;}
 .footer-name{font-weight:700;font-size:0.76rem;background:var(--grad);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;}
 .footer-links{font-family:'Space Mono',monospace;font-size:0.56rem;color:var(--ink3);text-align:right;}
 .footer-links a{color:var(--purple3);text-decoration:none;}
-
+ 
 @keyframes pulse-ring{0%{box-shadow:0 0 0 0 rgba(109,40,217,0.4);}70%{box-shadow:0 0 0 10px rgba(109,40,217,0);}100%{box-shadow:0 0 0 0 rgba(109,40,217,0);}}
 .on-frontier{animation:pulse-ring 2s infinite;}
 @media(max-width:380px){.nii-val{font-size:1.3rem;}.card,.frontier-card,.kkt-card,.footer{margin-left:0.4rem;margin-right:0.4rem;}}
@@ -153,7 +153,7 @@ input[type=range]::-moz-range-thumb{width:26px;height:26px;border-radius:50%;bac
 </head>
 <body>
 <div class="page">
-
+ 
 <div class="header">
   <div class="header-top">
     <h1>ALM Efficient Frontier</h1>
@@ -161,7 +161,7 @@ input[type=range]::-moz-range-thumb{width:26px;height:26px;border-radius:50%;bac
   </div>
   <div class="header-sub">Balance Sheet Optimisation · Part 5 of the Series</div>
 </div>
-
+ 
 <div class="nii-strip">
   <div>
     <div class="nii-label">Base Case NII</div>
@@ -169,21 +169,21 @@ input[type=range]::-moz-range-thumb{width:26px;height:26px;border-radius:50%;bac
     <div class="nii-sub">USD bn · NIM 2.45%</div>
   </div>
   <div class="nii-right">
-    <div class="nii-label">Current NII</div>
+    <div class="nii-label">New NII</div>
     <div class="nii-val" id="nii-current">2.450</div>
     <div class="nii-sub" id="nii-sub">USD bn · NIM 2.45%</div>
   </div>
 </div>
-
+ 
 <div class="section-label">Pull the Levers</div>
 <div class="card">
   <div class="card-body">
     <div class="lever">
       <div class="lever-header">
-        <span class="lever-name">💰 Dividend Remittance</span>
+        <span class="lever-name">💰 Dividend</span>
         <span class="lever-val" id="div-val">USD 0.0bn</span>
       </div>
-      <div class="lever-desc">Return excess capital to shareholders. Reduces Tier 1 capital → tightens CET1 → improves capital efficiency.</div>
+      <div class="lever-desc">Return excess capital. Reduces Tier 1 capital → tightens CET1 → improves capital efficiency.</div>
       <div class="track-wrapper">
         <div class="track-bg"></div>
         <div class="track-fill" id="div-fill" style="width:0%"></div>
@@ -206,15 +206,32 @@ input[type=range]::-moz-range-thumb{width:26px;height:26px;border-radius:50%;bac
     </div>
     <div class="btn-row">
       <button class="reset-btn" onclick="resetSliders()">↺ Reset</button>
-      <button class="optimal-btn" onclick="setOptimal()">★ Set Optimal (Part 5)</button>
+      <button class="optimal-btn" onclick="setOptimal()">★ Set Optimal</button>
     </div>
   </div>
 </div>
-
+ 
+<div class="section-label">Frontier Position</div>
+<div class="frontier-card" id="frontier-card">
+  <div class="frontier-top" id="frontier-top">
+    <div class="frontier-label">ALM Efficient Frontier — Where Are We?</div>
+    <div class="frontier-status" id="frontier-status">Deep Inside the Frontier</div>
+    <div class="frontier-desc" id="frontier-desc">All constraints have slack. All shadow prices are zero. Significant Net Income unrealised. Pull the levers.</div>
+  </div>
+  <div class="track-outer">
+    <div class="track-bar">
+      <div class="track-dot" id="track-dot" style="left:10%"></div>
+    </div>
+    <div class="track-zone-labels">
+      <span>Far Inside</span><span>Near</span><span>★ Optimal</span><span>Risky</span><span>Breach</span>
+    </div>
+  </div>
+</div>
+ 
 <div class="section-label">Constraint Metrics &amp; Shadow Prices</div>
 <div class="card">
   <div class="card-body">
-
+ 
     <div class="metric-row">
       <div>
         <div class="metric-name">CET1 Ratio</div>
@@ -231,7 +248,7 @@ input[type=range]::-moz-range-thumb{width:26px;height:26px;border-radius:50%;bac
         <div id="m-cet1-pill"><span class="pill pill-slack">SLACK</span></div>
       </div>
     </div>
-
+ 
     <div class="metric-row">
       <div>
         <div class="metric-name">EVS Outlier Ratio</div>
@@ -248,7 +265,7 @@ input[type=range]::-moz-range-thumb{width:26px;height:26px;border-radius:50%;bac
         <div id="m-evs-pill"><span class="pill pill-tight">TIGHT</span></div>
       </div>
     </div>
-
+ 
     <div class="metric-row">
       <div>
         <div class="metric-name">LCR</div>
@@ -265,7 +282,7 @@ input[type=range]::-moz-range-thumb{width:26px;height:26px;border-radius:50%;bac
         <div id="m-lcr-pill"><span class="pill pill-slack">SLACK</span></div>
       </div>
     </div>
-
+ 
     <div class="metric-row">
       <div>
         <div class="metric-name">Duration Gap</div>
@@ -277,7 +294,7 @@ input[type=range]::-moz-range-thumb{width:26px;height:26px;border-radius:50%;bac
         <div><span class="pill pill-slack">SLACK</span></div>
       </div>
     </div>
-
+ 
     <div class="metric-row nii-metric-row" style="border-bottom:none;margin-top:0.3rem;">
       <div>
         <div class="metric-name" style="color:var(--purple2)">Net Income</div>
@@ -288,10 +305,10 @@ input[type=range]::-moz-range-thumb{width:26px;height:26px;border-radius:50%;bac
         <div class="metric-slack" id="m-nii-gain" style="color:var(--ink3)">vs base: —</div>
       </div>
     </div>
-
+ 
   </div>
 </div>
-
+ 
 <div class="section-label">Balance Sheet Position</div>
 <div class="card">
   <div class="card-header">
@@ -323,29 +340,12 @@ input[type=range]::-moz-range-thumb{width:26px;height:26px;border-radius:50%;bac
     </div>
   </div>
 </div>
-
-<div class="section-label">Frontier Position</div>
-<div class="frontier-card" id="frontier-card">
-  <div class="frontier-top" id="frontier-top">
-    <div class="frontier-label">ALM Efficient Frontier — Where Are We?</div>
-    <div class="frontier-status" id="frontier-status">Deep Inside the Frontier</div>
-    <div class="frontier-desc" id="frontier-desc">All constraints have slack. All shadow prices are zero. Significant Net Income unrealised. Pull the levers.</div>
-  </div>
-  <div class="track-outer">
-    <div class="track-bar">
-      <div class="track-dot" id="track-dot" style="left:10%"></div>
-    </div>
-    <div class="track-zone-labels">
-      <span>Far Inside</span><span>Near</span><span>★ Optimal</span><span>Risky</span><span>Breach</span>
-    </div>
-  </div>
-</div>
-
+ 
 <div class="kkt-card">
   <div class="kkt-title">KKT Interpretation</div>
   <div class="kkt-text" id="kkt-text">Move the levers to see KKT conditions in action. When a constraint becomes binding, its shadow price turns positive — telling you exactly what that constraint costs in Net Income per year.</div>
 </div>
-
+ 
 <div class="footer">
   <div>
     <div class="footer-name">Daniel Morales Chavez, CFA</div>
@@ -353,7 +353,7 @@ input[type=range]::-moz-range-thumb{width:26px;height:26px;border-radius:50%;bac
   </div>
   <div class="footer-links">Working Paper v0.5<br>ALM Efficient Frontier · Part 5</div>
 </div>
-
+ 
 </div>
 <script>
 const BS={lf_base:49,lx:35,hqla_base:8,cash:8,y_lf:.06,y_lx:.055,y_hqla:.03,y_cash:.01,td:35,nmd_core:24.5,nmd_non:10.5,ws:15,cap_base:15,total_liab:85,total_assets:100,c_td:.038,c_nc:.01,c_nn:.045,c_ws:.046,d_lf:.25,d_lx:3.5,d_hqla:4,d_cash:.003,d_td:.9,d_nmd_core:2.4,d_nmd_non:.003,d_ws:.9};
@@ -362,7 +362,7 @@ const R={cet1:.10,evs:.15,lcr:1.00};
 const fc=BS.td*BS.c_td+BS.nmd_core*BS.c_nc+BS.nmd_non*BS.c_nn+BS.ws*BS.c_ws;
 const outflows=BS.nmd_non*.1+BS.nmd_core*.05+BS.td*.1+BS.ws*.25;
 const BASE_NII=BS.lf_base*BS.y_lf+BS.lx*BS.y_lx+BS.hqla_base*BS.y_hqla+BS.cash*BS.y_cash-fc;
-
+ 
 function compute(div,dh){
   const cap=BS.cap_base-div,hqla=BS.hqla_base-dh,lf=BS.lf_base+dh;
   if(cap<=0||hqla<0||lf<0)return null;
@@ -376,13 +376,13 @@ function compute(div,dh){
   const lcr=(BS.cash+hqla*.85)/outflows;
   return{nii,cet1,evs,lcr,dgap,cap,hqla,lf,rwa};
 }
-
+ 
 function fp(v){return(v*100).toFixed(1)+'%';}
 function fbn(v){return v.toFixed(3);}
-
+ 
 function resetSliders(){document.getElementById('div-slider').value=0;document.getElementById('hqla-slider').value=0;update();}
-function setOptimal(){document.getElementById('div-slider').value=20;document.getElementById('hqla-slider').value=40;update();}
-
+function setOptimal(){document.getElementById('div-slider').value=20;document.getElementById('hqla-slider').value=39;update();}
+ 
 function setConstraint(id,val,target,direction,sp_id,sp_bar_id,sp_val,sp_max){
   const slack=direction==='above'?val-target:target-val;
   const regB=direction==='above'?val<R[id]:val>R[id];
@@ -409,7 +409,7 @@ function setConstraint(id,val,target,direction,sp_id,sp_bar_id,sp_val,sp_max){
   spEl.className=sp>0?'sp-val sp-active':'sp-val sp-zero';
   return{binding,intB,regB,tight,slack};
 }
-
+ 
 function update(){
   const div=parseFloat(document.getElementById('div-slider').value)/10;
   const dh=parseFloat(document.getElementById('hqla-slider').value)/10;
@@ -425,7 +425,7 @@ function update(){
   let subH='USD bn · NIM '+nim;
   if(gain>0.5)subH+=` <span class="nii-gain">+$${gain.toFixed(0)}M</span>`;
   document.getElementById('nii-sub').innerHTML=subH;
-
+ 
   // BS
   const lfd=m.lf-BS.lf_base,hqlad=m.hqla-BS.hqla_base,capd=m.cap-BS.cap_base;
   const lfEl=document.getElementById('bs-lf');
@@ -440,11 +440,11 @@ function update(){
   cEl.textContent=m.cap.toFixed(2)+'bn';cEl.className='bs-item-val'+(div>0?' changed':'');
   document.getElementById('bs-cap-d').textContent=capd===0?'unchanged':capd.toFixed(2)+'bn';
   document.getElementById('bs-cap-d').className='bs-item-delta '+(capd<0?'d-neg':'d-zero');
-
+ 
   const cr=setConstraint('cet1',m.cet1,T.cet1,'above','sp-cet1','sp-cet1-bar',65,100);
   const er=setConstraint('evs',m.evs,T.evs,'below','sp-evs','sp-evs-bar',18,100);
   const lr=setConstraint('lcr',m.lcr,T.lcr,'above','sp-lcr','sp-lcr-bar',31,50);
-
+ 
   document.getElementById('m-dgap').textContent=(m.dgap>=0?'+':'')+m.dgap.toFixed(2)+'y';
   document.getElementById('m-dgap-slack').textContent='slack '+(1.5-Math.abs(m.dgap)).toFixed(2)+'y';
   document.getElementById('m-nii').textContent='USD '+fbn(m.nii)+'bn';
@@ -452,7 +452,7 @@ function update(){
   if(gain>0.5){gEl.textContent='vs base: +USD '+gain.toFixed(0)+'M';gEl.style.color='var(--green)';}
   else if(gain<-0.5){gEl.textContent='vs base: USD '+gain.toFixed(0)+'M';gEl.style.color='var(--red)';}
   else{gEl.textContent='vs base: —';gEl.style.color='var(--ink3)';}
-
+ 
   const sEl=document.getElementById('frontier-status');
   const dEl=document.getElementById('frontier-desc');
   const dotEl=document.getElementById('track-dot');
@@ -460,13 +460,13 @@ function update(){
   const cardEl=document.getElementById('frontier-card');
   const kEl=document.getElementById('kkt-text');
   cardEl.classList.remove('on-frontier');
-
+ 
   const any_reg=cr.regB||er.regB||lr.regB;
   const any_int=cr.intB||er.intB||lr.intB;
   const any_bind=cr.binding||er.binding||lr.binding;
   const any_tight=cr.tight||er.tight||lr.tight;
   const all_big=cr.slack>.05&&er.slack>.02&&lr.slack>.15;
-
+ 
   if(any_reg){
     sEl.textContent='⛔ Regulatory Breach — Infeasible';sEl.style.color='var(--red)';
     topEl.style.background='#fff5f5';dotEl.style.left='92%';dotEl.style.borderColor='var(--red)';
